@@ -30,9 +30,8 @@ h2 {
 }
 
 h2 .m-5 {
-  color:#953b3b
+  color: #953b3b;
 }
-
 
 h3 {
   font-size: 48px;
@@ -96,7 +95,7 @@ footer .contact-box p {
 
 footer .email-link {
   text-decoration: none;
-  color:black;
+  color: black;
   font-size: 24px;
   text-align: center;
 }
@@ -111,7 +110,7 @@ footer .social-links a {
   border-radius: 50%;
   background: var(--secondary-color);
   padding: 10px 14px;
-  font-size:18px;
+  font-size: 18px;
   transition: all 100ms ease-in-out;
 }
 
@@ -221,6 +220,12 @@ footer .social-links a:hover {
   border-radius: 10px;
 }
 
+img.img-fluid {
+  max-width: 50%;
+  margin-left: 59px;
+  margin-top: 58px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -254,7 +259,6 @@ footer .social-links a:hover {
     font-size: 40px;
   }
 
-
   nav a {
     font-size: 14px;
   }
@@ -276,4 +280,13 @@ footer .social-links a:hover {
   footer .contact-box-text a {
     padding: 15px;
   }
+
+  img.img-fluid {
+  max-width: 40%;
+  display:block;
+  margin: 0 auto;
+  margin-top:30px;
+
+}
+
 }
