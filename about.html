@@ -3,10 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="See all the work projects developed by Fareha Patel. A Front-end engineer based in the United Kingdom." />
-    <title>Work Projects - Fareha Patel</title>
+    <meta
+      name="description"
+      content="A front-end engineer, working with HTML, CSS and JavaScript"
+    />
+    <title>About Fareha - Fareha Patel</title>
 
-    <link rel="stylesheet" href="styles/portfolio.css" />
+    <link rel="stylesheet" href="src/portfolio.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -31,10 +34,14 @@
     ></script>
   </head>
   <body>
-    <div class="container">
+    <div class="container-nav">
       <nav class="d-flex justify-content-between">
         <a href="/" title="Homepage">
-          <img src="images/FPlogo.png" class="logo d-none d-md-block" alt="Fareha logo" />
+          <img
+            src="images/FPlogo.png"
+            class="logo d-none d-md-block"
+            alt="Fareha logo"
+          />
           <img
             src="images/FPlogo.png"
             class="logo d-block d-md-none"
@@ -42,13 +49,13 @@
           />
         </a>
         <ul>
-          <li >
+          <li class="active">
             <a href="/" title="Homepage">Home</a>
           </li>
           <li>
             <a href="/about.html" title="About Fareha">About</a>
           </li>
-          <li class="active">
+          <li>
             <a href="/work.html" title="Fareha's work">Work</a>
           </li>
           <li>
@@ -57,45 +64,32 @@
         </ul>
       </nav>
     </div>
-    <div class="content-container container">
-      <div class="content">
-        <h1 class="mb-5">Take a look at what I've been working on!</h1>
 
-        <div class="row">
-          <div class="col-md-6 mb-4">
-            <img
-              src="images/yogurt.png"
-              class="img-fluid mb-3 rounded"
-              alt="Yogurt project preview"
-            />
-            <h3 class="text-center m-0">Yogurt Project</h3>
-            <p class="text-center text-muted">Built with HTML and CSS</p>
-          </div>
-          <div class="col-md-6 mb-4">
-            <img
-              src="images/weather.png"
-              class="img-fluid mb-3 rounded"
-              alt="Weather project preview"
-            />
-            <h3 class="text-center m-0">Weather Project</h3>
-            <p class="text-center text-muted">
-              Built with HTML, CSS and JavaScript
+    <div class="content-container container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="content">
+            <h1 class="mb-4">Hi, I am Fareha Patel</h1>
+            <h2 class="mb-4">Front-end Developer, based in United Kingdom.</h2>
+            <p class="mb-5">
+              I'm Fareha Patel, a Front-end developer and Educator based in Blackburn, UK. 
+              With over 20 years of teaching experience, I'm now 
+              transitioning from the classroom to the dynamic world of 
+              tech. Through SheCodes training, I'm refining my 
+              skills in HTML, CSS, and JavaScript to craft extraordinary
+               websites. My goal is to surpass challenges, 
+               mastering software development. I bring a diverse 
+               educational background, merging it with evolving coding 
+               skills to create exceptional software solutions. 
+               Whether you're an individual, entrepreneur, a small business, or a large corporation, 
+               let's collaborate to build something extraordinary 
+               for your unique needs!
             </p>
+            <a href="/work.html" class="btn-branding">View all projects</a>
           </div>
-          <div class="col-md-6 mb-4">
-            <img
-              src="images/dictionary.png"
-              class="img-fluid mb-3 rounded"
-              alt="Dictionary project preview"
-            />
-            <h3 class="text-center m-0">Dictionary App</h3>
-            <p class="text-center text-muted">Built with HTML, CSS and React</p>
-          </div>
-          <div class="col-md-6 mb-4">
-            <img src="images/translation.png" class="img-fluid mb-3" alt="" />
-            <h3 class="text-center m-0">Translation App</h3>
-            <p class="text-center text-muted">Built with HTML, CSS and React</p>
-          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/Women.png" alt="" class="img-fluid" />
         </div>
       </div>
       <footer class="container">
@@ -142,12 +136,7 @@
           </a>
         </div>
         <p class="text-center mt-5">
-          ✌🏽This project was coded via SheCodes and it is
-          <a
-            href="https://github.com/Fareha13/Portfolio-project"
-            target="_blank"
-            >open-sourced.</a
-          >
+          ✌🏽This website is coded, designed and built by Fareha Patel.
         </p>
       </footer>
     </div>
