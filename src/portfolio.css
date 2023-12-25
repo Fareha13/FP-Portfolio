@@ -152,6 +152,7 @@ footer .social-links a:hover {
   padding: 30px 20px;
 }
 
+
 .content h1 {
   font-size: 64px;
   line-height: 80px;
@@ -176,6 +177,12 @@ footer .social-links a:hover {
 
 .content {
   margin: 30px;
+}
+
+.about-content {
+  display:block;
+  text-align: center;
+  margin: 0px;
 }
 
 .btn-branding {
@@ -203,7 +210,7 @@ footer .social-links a:hover {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 50px 60px;
 }
 
 .logo {
@@ -220,10 +227,37 @@ footer .social-links a:hover {
   border-radius: 10px;
 }
 
-img.img-fluid {
-  max-width: 60%;
-  margin-left: 59px;
-  margin-top: 58px;
+img.img-fluid.profile-pic {
+  display:block;
+  margin: 0 auto;
+  margin-top: 28px;
+  max-width: 45%;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+img.img-fluid.nutella {
+  display: block;
+  max-width: 70%;
+}
+
+img.img-fluid.weather {
+  display:block;
+  max-width: 100%;
+  padding-top: 57px;
+  border-radius: 10px;
+}
+
+img.img-fluid.hobby {
+  display:block;
+  max-width: 40%;
+  
+}
+
+img.img-fluid.world-clock {
+  display:block;
+  max-width:90%;
+  padding-top: 87px;
 }
 
 @media (max-width: 900px) {
@@ -282,11 +316,10 @@ img.img-fluid {
   }
 
   img.img-fluid {
-  max-width: 40%;
-  display:block;
-  margin: 0 auto;
-  margin-top:30px;
-
+    max-width: 40%;
+    display: block;
+    margin: 0 auto;
+  }
 }
 
-}
+
