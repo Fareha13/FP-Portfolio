@@ -149,7 +149,7 @@ footer .social-links a:hover {
 }
 
 .content-container {
-  padding: 30px 20px;
+  padding: 50px 20px;
 }
 
 
@@ -183,6 +183,7 @@ footer .social-links a:hover {
   display:block;
   text-align: center;
   margin: 0px;
+  padding-right:50px;
 }
 
 .btn-branding {
@@ -239,6 +240,8 @@ img.img-fluid.profile-pic {
 img.img-fluid.nutella {
   display: block;
   max-width: 70%;
+  margin: 0 auto;
+  border-radius: 10px ;
 }
 
 img.img-fluid.weather {
@@ -251,14 +254,19 @@ img.img-fluid.weather {
 img.img-fluid.hobby {
   display:block;
   max-width: 40%;
+  margin: 0 auto;
+  padding-top:68px;
   
 }
 
 img.img-fluid.world-clock {
   display:block;
-  max-width:90%;
-  padding-top: 87px;
+  max-width:80%;
+  padding-top: 97px;
+  margin: 0 auto;
 }
+
+
 
 @media (max-width: 900px) {
   h1 {
@@ -319,6 +327,12 @@ img.img-fluid.world-clock {
     max-width: 40%;
     display: block;
     margin: 0 auto;
+  }
+
+  h1.heading {
+    font-size: 64px;
+    line-height: 80px;
+    font-weight: bold;
   }
 }
 
