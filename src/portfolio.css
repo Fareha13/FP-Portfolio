@@ -170,7 +170,6 @@ footer .social-links a:hover {
   padding-bottom: 80px;
 }
 
-
 .content-container {
   padding: 50px 20px;
 }
@@ -200,8 +199,6 @@ footer .social-links a:hover {
 .content {
   margin: 30px;
 }
-
-
 
 .btn-branding {
   background: var(--branding-color);
@@ -246,16 +243,15 @@ footer .social-links a:hover {
 }
 
 img.img-fluid.profile-pic {
-     display: block;
-    margin: 0 auto;
-    margin-top: 40px;
-    max-width: 60%;
-    padding: 0px;
-    border-radius: 10px;
-    box-sizing: border-box;
-    box-shadow: 10px 10px 33px 0px rgba(0,0,0,0.5);
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  max-width: 60%;
+  padding: 0px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  box-shadow: 10px 10px 33px 0px rgba(0, 0, 0, 0.5);
 }
-
 
 img.img-fluid.nutella {
   display: block;
@@ -347,9 +343,9 @@ img.img-fluid.world-clock {
     margin-top: 70px;
   }
 
-  h1.heading {
-    font-size: 64px;
-    line-height: 80px;
+  h1.heading-about {
+    font-size: 54px;
+    line-height: 56px;
     font-weight: bold;
   }
 }
